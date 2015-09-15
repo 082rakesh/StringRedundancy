@@ -14,6 +14,7 @@
 		E1E9DADA1BA82E9C00DE7C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E9DAD91BA82E9C00DE7C26 /* Images.xcassets */; };
 		E1E9DADD1BA82E9C00DE7C26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E9DADB1BA82E9C00DE7C26 /* LaunchScreen.xib */; };
 		E1E9DAE91BA82E9C00DE7C26 /* StringRedundancyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9DAE81BA82E9C00DE7C26 /* StringRedundancyTests.m */; };
+		E1E9DAF41BA82EEC00DE7C26 /* StringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9DAF31BA82EEC00DE7C26 /* StringTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E1E9DAE21BA82E9C00DE7C26 /* StringRedundancyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringRedundancyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E9DAE71BA82E9C00DE7C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E9DAE81BA82E9C00DE7C26 /* StringRedundancyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringRedundancyTests.m; sourceTree = "<group>"; };
+		E1E9DAF21BA82EEC00DE7C26 /* StringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTest.h; sourceTree = "<group>"; };
+		E1E9DAF31BA82EEC00DE7C26 /* StringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		E1E9DACB1BA82E9B00DE7C26 /* StringRedundancy */ = {
 			isa = PBXGroup;
 			children = (
+				E1E9DAF21BA82EEC00DE7C26 /* StringTest.h */,
+				E1E9DAF31BA82EEC00DE7C26 /* StringTest.m */,
 				E1E9DAD01BA82E9B00DE7C26 /* AppDelegate.h */,
 				E1E9DAD11BA82E9B00DE7C26 /* AppDelegate.m */,
 				E1E9DAD31BA82E9C00DE7C26 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				E1E9DAD51BA82E9C00DE7C26 /* ViewController.m in Sources */,
 				E1E9DAD21BA82E9B00DE7C26 /* AppDelegate.m in Sources */,
+				E1E9DAF41BA82EEC00DE7C26 /* StringTest.m in Sources */,
 				E1E9DACF1BA82E9B00DE7C26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
