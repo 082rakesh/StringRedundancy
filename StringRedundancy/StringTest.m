@@ -47,6 +47,7 @@
             [result appendString:substring];
         }
     }];
+    
     NSLog(@"String with duplicate characters removed: %@", result);
     NSLog(@"Sorted characters in input: %@", [seenCharacters.allObjects sortedArrayUsingSelector:@selector(compare:)]);
 
@@ -78,36 +79,5 @@
 }
 
 
--(NSString *)removeRedundantCharwithoutApi{
-    NSString *input  = self.data;
-    NSMutableArray *array = [NSMutableArray array];
-    NSMutableString *result = [NSMutableString string];
-
-    for (int index = 0; index < input.length; index++) {
-        NSString *subString = [input substringWithRange:NSMakeRange(index, 1)];
-        
-        if([array count] > 0){
-            for (int arrayIndex = 0; arrayIndex < [array count]; arrayIndex++) {
-                NSString *string = [array objectAtIndex:arrayIndex];
-                
-                if(![subString isEqualToString:string]){
-                    [array addObject:subString];
-                    [result appendString:subString];
-                }
-                
-            }
-        }else{
-            [array addObject:subString];
-            [result appendString:subString];
-
-        }
-        
-    }
-    
-    NSLog(@"String with duplicate characters removed: %@", result);
-
-    return result;
-
-}
 
 @end

@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "StringTest.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    StringTest *test = [[StringTest alloc] init:@"abaa"];
+    [test removeRedundantChar];
+    
+  //  [test removeRedundant];
+
 }
 
 - (void)didReceiveMemoryWarning {

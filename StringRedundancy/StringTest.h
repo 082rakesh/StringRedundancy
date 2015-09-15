@@ -14,6 +14,5 @@
 
 -(NSString *)removeRedundant;
 -(NSString *)removeRedundantChar;
--(NSString *)removeRedundantCharwithoutApi;
 
 @end
